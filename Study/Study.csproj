@@ -39,6 +39,7 @@
     <Compile Include="01Class.cs" />
     <Compile Include="02Namespace.cs" />
     <Compile Include="03MemberVar.cs" />
+    <Compile Include="04MemberFunc.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
