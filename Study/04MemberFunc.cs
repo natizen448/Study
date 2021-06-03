@@ -30,3 +30,4 @@ class player
 //주인공이 있다 -> 클래스를 만든다.
 //주인공이 공격력이있다 -> 멤버변수를 만든다.
 //주인공이 공격한다. -> 멤버함수를 만든다.
+//https://www.youtube.com/watch?v=-JD5ry7P1iU&list=PL4SIC1d_ab-Y-bBKojxhtFWwNpawMM1h5&index=7
