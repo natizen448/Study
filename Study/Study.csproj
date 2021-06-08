@@ -38,8 +38,9 @@
   <ItemGroup>
     <Compile Include="01Class.cs" />
     <Compile Include="02Namespace.cs" />
+    <Compile Include="08Operator.cs" />
     <None Include="06ClassAccess.cs" />
-    <Compile Include="07FuncEx.cs" />
+    <None Include="07FuncEx.cs" />
     <None Include="03MemberVar.cs" />
     <None Include="04MemberFunc.cs" />
     <None Include="05LocalVar.cs" />
