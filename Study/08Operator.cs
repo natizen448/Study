@@ -70,6 +70,7 @@ namespace Study
             bool Bresult = true;
 
             //이런식으로 참과 거짓을 통해서
+            //나중에 배울 조건문에서 정말 유용하게 이용된다.
             Bresult = Left > Right; //Left가 Right보다 큰가? 참이라면 true 거짓이라면 false를 리턴한다.
             Bresult = Left < Right; //Left가 Right보다 작은가?
             Bresult = Left <= Right;//Left가 Right보다 작거나 같은가?
@@ -77,6 +78,42 @@ namespace Study
             Bresult = Left == Right;//Left와 Right이 같은가?
             Bresult = Left != Right;//Left와 Right이 같지않은가?
 
+            //bool 논리 연산자
+            //bool 논리 연산자는 
+            //참과 거짓을 연산하는 연산자
+            //둘다 맞다면
+            //둘다 틀리다면
+            //둘이 같다면
+
+            //둘다 true일때만 true
+            //연속되어있을때 그중 단 한개라도 false면 false이다.
+            Bresult = true && false;//AND
+
+            //이녀석은 하나라도 true 있다면 true이다.
+            Bresult = true || false;//OR
+
+            //양쪽이 다르다면 true
+            //양쪽이 같으면 false
+            Bresult = true ^ false;//XOR
+            Bresult = true ^ true;//XOR
+            Bresult = false ^ false;//XOR
+            Bresult = false ^ true;//XOR
+
+            //축약 연산자.
+            Result = 0;
+            Result = Result + 10;
+
+            //산술연산자를 이렇게 축약해서 사용할수있다.
+            Result += 10;
+            Result -= 10;
+            Result *= 10;
+            Result /= 10;
+
+
+
+
+            Bresult = !true;//true면 false;
+            Bresult = !false;//false면 true;
 
 
 
