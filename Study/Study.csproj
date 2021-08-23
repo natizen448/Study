@@ -38,7 +38,8 @@
   <ItemGroup>
     <Compile Include="01Class.cs" />
     <Compile Include="02Namespace.cs" />
-    <Compile Include="08Operator.cs" />
+    <None Include="08Operator.cs" />
+    <Compile Include="09Memory00%28Func%29.cs" />
     <None Include="06ClassAccess.cs" />
     <None Include="07FuncEx.cs" />
     <None Include="03MemberVar.cs" />
